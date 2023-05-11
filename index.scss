@@ -1,0 +1,138 @@
+@import './partials/root';
+
+.header {
+    background: $text-dark;
+    color: $bg;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: fixed;
+    height: 10vh;
+    top: 0;
+    z-index: 2;
+    @media screen and (min-width: 760px) {
+        justify-content: start;
+        padding-left: 1rem;
+    }
+    .logo {
+        padding-right: .3rem;
+        font-size: 2.7rem;
+    }
+    .logo-text {
+        font-size: 25px;
+        padding-bottom: .3rem;
+    }
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    @media screen and (min-width: 760px){
+        flex-direction: row;
+        padding: 4.5rem 1rem;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .genre {
+        display: flex;
+        flex-direction: column;
+        top: 10vh;
+        gap: 1rem;
+        padding-top: 5rem;
+        width: 100%;
+        @media screen and (min-width: 760px) {
+            position: fixed;
+            width: 20%;
+            padding-top:2rem;
+
+        }
+        h3 {
+            color: $text-dark;
+        }
+        .lists {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            width: 100%;
+            align-items: center;
+            @media screen and (min-width: 760px) {
+                flex-direction: column;
+                align-items: start;
+            }
+            li {
+                list-style: none;
+                background: $active;
+                color: $white;
+                padding: 10px 30px;
+                border-radius: 3px;
+                width: 7rem;
+                cursor: pointer;
+                &:hover {
+                    background: $text-dark;
+                }
+                &.active {
+                    background: $text-dark;
+                }
+                @media screen and (min-width: 760px) {
+                    width: 100%;
+                    padding-left: 1rem;
+                }
+            }
+        }
+    }
+    .table-set {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        color: $text-dark;
+        cursor: pointer;
+        width: 100%;
+        @media screen and (min-width: 760px) {
+            width: 77%;
+            padding-top: 1.5rem;
+            margin-left: 23%;
+
+        }
+        .table {
+            border-collapse: collapse;
+            border-radius: 5px;
+            box-shadow: 2px 2px 8px  $black;
+            overflow: hidden;
+            tr {
+                border-bottom: 1px solid $text-dark;
+                &:last-child {
+                    border-bottom: none;
+                }
+                &.hide {
+                    display: none;
+                }
+                th,td {
+                    border-right: 1px solid $text-dark;
+                    padding: 12px;
+                    &:last-child {
+                        border-right: none;
+                    }
+                }
+                th {
+                    background: $text-dark;
+                    color: $bg;
+                }
+                td {
+                    text-align: left;
+                    background: $bg;
+                }
+            }
+            
+
+        }
+    }
+}

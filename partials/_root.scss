@@ -1,0 +1,19 @@
+$primary: #faf7ef;
+$text-dark:#072a40;
+$white: #fff;
+$active: #188ca5;
+$bg: #faf7ef;
+$table: #18b7be;
+$black: #211f1fd3;
+$gradient: linear-gradient(to bottom right, $text-dark, $active, $table);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: $bg;
+    color: $black;
+    font-family: Arial, Helvetica, sans-serif;
+}

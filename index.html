@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie List</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="./css/index.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo"><i class="fab fa-modx"></i></h1>
+        <h1 class="logo-text">My Movie List</h1>
+    </header>
+    <div class="container">
+        <div class="genre">
+            <h3 class="genre-header">Genre</h3>
+            <ul class="lists">
+                <li data-genre="all">All</li>
+                <li data-genre="Action">Action</li>
+                <li data-genre="Comedy">Comedy</li>
+                <li data-genre="Thriller">Thriller</li>
+            </ul>
+        </div>
+
+        <div class="table-set">
+            <h3 class="text-display">There are <span></span> movies in the list</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th class="th-genre">Genre</th>
+                        <th>Stock</th>
+                        <th>Ratings</th>
+                        <th colspan="2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="all.min.js"></script>
+    <script src="./jquery.js"></script>
+    <script src="./movies.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
