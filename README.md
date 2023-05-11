@@ -2,8 +2,7 @@
  This is a movie list shown in a table. It is built with HTML, SASS and Jquery
  
  #Screenshots
-![Screenshot (17)](https://user-images.githubusercontent.com/60876346/236737023-b7bdaf69-4be4-459d-b9a3-5a8c16373b8c.png)
-![Screenshot (18)](https://user-images.githubusercontent.com/60876346/236737051-bf065829-cdb2-4ccd-aa5d-3034f66de976.png)
+![Screenshot (23)](https://github.com/Adewunmi97/Movie-List/assets/60876346/fe162c1b-e4e8-460c-b88e-471a5736a0b8)
 
 ## Built With
 
@@ -13,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Adewunmi97/Huddle-Landing-Page/main/index.html)
+[Live Demo Link](https://raw.githack.com/Adewunmi97/Movie-List/main/index.html)
 
 
 ## Project Description
